@@ -1,0 +1,36 @@
+{
+    "events" : [
+    //
+    {
+        "text" : "A pig is sick.  You could put it down peacefully or send it off for a little bit of money.  The city wont be very happy eating a sick pig, but some money will be had!",
+        "requirements" : [
+            {"pigs" : "1"}
+        ],
+        "options" : [
+        {
+            "optiontext":"Put the Pig down silently. (-1 Pig)", 
+            "results" : [
+            {
+                "pigs":"-1"
+            }
+            ]
+        },
+        {
+            "optiontext":"Sell the pig for half cost in the city. (-1 Pig, +20 Gold, -5 City Love)", 
+            "results" : [
+            {
+                "pigs":"-1",
+                "gold":"20",
+                "citylove":"-5"
+            }
+            ]
+        }
+        ]
+    },
+    //
+    {
+        "text" : "The army is on the march and is in desperate need of food.  Your favor with the king would increase highly, but you would get a lower then average cost for the pigs."
+    }
+    
+    ]
+}
